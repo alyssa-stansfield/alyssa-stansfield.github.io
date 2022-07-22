@@ -52,5 +52,6 @@ ul.posts li {
 }
 
 img.wrap {
-    float: right
+    float: right;
+    padding: 10px,10px,10px,10px;
 }
