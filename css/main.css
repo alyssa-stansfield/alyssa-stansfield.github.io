@@ -53,5 +53,10 @@ ul.posts li {
 
 img.wrap {
     float: right;
-    padding: 10px,10px,10px,10px;
+    padding: 10px,50px,50px,50px;
+}
+
+ul {
+    font-size: 1.2em;
+    color:#F0FFF0;
 }
