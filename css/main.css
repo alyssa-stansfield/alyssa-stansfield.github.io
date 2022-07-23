@@ -36,6 +36,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #F0FFF0;
+    padding-right: 30px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -53,10 +54,9 @@ ul.posts li {
 
 img.wrap {
     float: right;
-    padding: 10px,50px,50px,50px;
 }
 
-ul {
+ul.news {
     font-size: 1.2em;
     color:#F0FFF0;
 }
