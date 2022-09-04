@@ -60,7 +60,7 @@ ul.posts li {
 img.wrap {
     float: right;
     padding-left: 40px;
-    border-radius: 90%;
+    border-radius: 15px;
 }
 
 ul.news {
