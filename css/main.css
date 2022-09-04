@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #2F4F4F;
+    background-color:#FCF7E5;
 }
 
 nav ul, footer ul {
@@ -70,11 +70,20 @@ ul.news {
 }
 
 .leftbar{
-   background-color:#FCF7E5;
-   width:20px;
+   background-color:#2F4F4F;
+   width:50px;
    height:100%;
    position:fixed;
    top:0;
    left:0;
    padding-top: 0px;
 } 
+
+.rightbar{
+   background-color:#2F4F4F;
+   width:50px;
+   height:100%;
+   top:0;
+   padding-top: 0px;
+   right:100%;
+}
