@@ -19,7 +19,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #F0FFF0;
+    color: #212121;
 }
 
 a:hover {
@@ -29,23 +29,23 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Garamond';
-    color:#F0FFF0;
+    color:#212121;
 }
 
 h2 {
     font-size: 2em;
     font-family:'Garamond';
-    color:#F0FFF0;
+    color:#212121;
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #F0FFF0;
+    color:#212121;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #212121;
     font-size: .8em;
 }
 
@@ -65,12 +65,16 @@ img.wrap {
 
 ul.news {
     font-size: 1.2em;
-    color:#F0FFF0;
+    color:#212121;
     line-height:1.5em;
 }
 
-.container{
+.leftbar{
    background-color:#FCF7E5;
-   width:80%
-   height:100%
+   width:20px;
+   height:100%;
+   position:fixed;
+   top:0;
+   left:0;
+   padding-top: 0px;
 } 
