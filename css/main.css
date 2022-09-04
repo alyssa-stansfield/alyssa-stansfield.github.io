@@ -3,23 +3,29 @@ body {
     width: 70%;
     background-color: #2F4F4F;
 }
+
 nav ul, footer ul {
+    background-image:"../assets/16377-satellite-view-of-a-hurricane-pv.jpeg";
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #F0FFF0;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Garamond';
