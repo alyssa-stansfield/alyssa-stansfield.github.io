@@ -11,10 +11,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-nav ul li {
-    position: sticky;
-    top: 0;
-    z-index: 999;
+.fixed-nav-bar {position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; background-color: #00a087;
 }
 
 nav ul li, footer ul li {
