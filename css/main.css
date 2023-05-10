@@ -15,8 +15,9 @@ nav ul, footer ul {
     position: fixed;
     top: 0;
     z-index: 9999; 
-    width: 70%; 
-    background-color: #00a087;
+    width: 100%; 
+    background-color: #FFFFFF;
+    opacity: 0.6;
 }
 
 nav ul li, footer ul li {
