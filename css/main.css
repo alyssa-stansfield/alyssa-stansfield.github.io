@@ -16,7 +16,7 @@ nav ul, footer ul {
     top: 0;
     left: 0;
     z-index: 9999; 
-    width: 100%; 
+    width: 70%; 
     background-image: url(../assets/2020-hurricanes-satellite-view.tiff);
 }
 
