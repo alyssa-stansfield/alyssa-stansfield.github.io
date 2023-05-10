@@ -14,10 +14,10 @@ nav ul, footer ul {
 .fixed-nav-bar {
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 9999; 
     width: 70%; 
-    background-image: url(../assets/2020-hurricanes-satellite-view.tiff);
+    background-image: url( "../assets/2020-hurricanes-satellite-view.tiff" );
+    background-position: center;
 }
 
 nav ul li, footer ul li {
