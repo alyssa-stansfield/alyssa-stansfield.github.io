@@ -70,7 +70,8 @@ ul.news {
 
 .leftbar{
    background-color:#2F4F4F;
-   width:150px;
+   width:15%;
+   max-width:150px;
    height:100%;
    position:fixed;
    top:0;
@@ -80,7 +81,8 @@ ul.news {
 
 .rightbar{
    background-color:#2F4F4F;
-   width:150px;
+   width:15%;
+   max-width:150px;
    height:100%;
    position:fixed;
    top:0;
