@@ -4,6 +4,10 @@ body {
     background-color:#FCF7E5;
 }
 
+.container {
+    padding-top: 100px;
+}
+
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -24,7 +28,7 @@ nav ul {
     left: 0;
     z-index: 9999; 
     width: 100%; 
-    background-image:url("../assets/2020-hurricanes-satellite-view.png");
+    background-image:url("../assets/hurricane_eye.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
