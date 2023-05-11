@@ -16,15 +16,9 @@ nav ul, footer ul {
     top: 0;
     z-index: 9999; 
     width: 100%; 
-    background-color: #FFFFFF;
+    background-image:url("../assets/2020-hurricanes-satellite-view.png");
 }
 
-.header img {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center
-}
     
 
 nav ul li, footer ul li {
