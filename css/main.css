@@ -17,6 +17,8 @@ nav ul, footer ul {
     z-index: 9999; 
     width: 100%; 
     background-image:url("../assets/2020-hurricanes-satellite-view.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
     
