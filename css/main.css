@@ -31,13 +31,12 @@ nav ul {
 
 nav a {
      color:#FCF7E5;
-     padding-top:50px;
      padding-left:30%;
 }
 
 
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
