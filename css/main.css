@@ -6,11 +6,12 @@ body {
 .container {
     padding-top: 60px;
     padding-left: 10%;
+    padding-right: 10%;
 }
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding-left: 10%;
     list-style: none;
     font-weight: bold;
 }
@@ -32,7 +33,7 @@ nav ul {
 
 nav a {
      color:#FCF7E5;
-     padding-top:10px;
+     padding-top:25px;
 }
 
 
