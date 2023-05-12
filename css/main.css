@@ -5,7 +5,7 @@ body {
 
 .container {
     padding-top: 60px;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 footer ul {
@@ -32,6 +32,7 @@ nav ul {
 
 nav a {
      color:#FCF7E5;
+     padding-top:10px;
 }
 
 
