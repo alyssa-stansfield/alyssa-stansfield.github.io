@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    padding-top: 150px;
+    padding-top: 60px;
 }
 
 footer ul {
@@ -19,8 +19,6 @@ nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.2em;
     background-color: #2F4F4F;
-    padding-left: 65%;
-    padding-top: 8%;
     list-style: none;
     font-weight: bold;
     position: fixed;
