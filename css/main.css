@@ -18,12 +18,21 @@ footer ul {
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.2em;
-    color: #FCF7E5;
+    background-color: #2F4F4F;
     padding-left: 65%;
     padding-top: 8%;
     list-style: none;
     font-weight: bold;
+    position: fixed;
+    top:0;
+    width:100%;
 }
+
+
+nav a {
+     color:#FCF7E5;
+}
+
 
 .fixed-nav-bar {
     position: fixed;
