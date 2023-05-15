@@ -36,9 +36,9 @@ nav a {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
-    padding-right: 40px;
+    padding-right: 60px;
     padding-top: 10px;
     
 }
@@ -104,6 +104,10 @@ ul.news {
 
 .name {
     position: fixed;
-    top: -50px;
-    left: -10px;
+    top: -35px;
+    left: -5px;
+    color:#FCF7E5;
+    z-index:9999;
+    font-size:1.5em;
+    font-family:'Garamond';
 }
