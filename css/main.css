@@ -26,6 +26,7 @@ nav ul {
     height:6%;
     z-index:999;
     margin: 0px 0px 0px 0px;
+    padding-right:20px;
 }
 
 
@@ -36,7 +37,6 @@ nav a {
 
 nav ul li {
     display: inline-block;
-    margin-right: 10px;
     float: right;
     padding-right: 60px;
     padding-top: 10px;
@@ -104,7 +104,7 @@ ul.news {
 
 .name {
     position: fixed;
-    top: -35px;
+    top: -10px;
     left: -5px;
     color:#FCF7E5;
     z-index:9999;
