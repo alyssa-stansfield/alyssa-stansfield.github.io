@@ -104,9 +104,9 @@ ul.news {
 
 .name {
     position: fixed;
-    top: -10px;
-    left: -5px;
-    color:#FCF7E5;
+    top: -8px;
+    left: 0;
+    font-color:#FCF7E5;
     z-index:9999;
     font-size:1.5em;
     font-family:'Garamond';
