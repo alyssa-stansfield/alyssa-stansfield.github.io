@@ -104,13 +104,20 @@ ul.news {
 
 .name {
     position: fixed;
-    top: 5px;
+    top: 6px;
     left: 15px;
     z-index:9999;
     font-size:1.5em;
-    font-family:'Garamond';
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight:bold;
 }
 
 .name a {
     color:#FCF7E5;
 }
+
+.name a:hover {
+    text-decoration: none;
+    font-style:italic
+}
+
