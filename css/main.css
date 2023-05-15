@@ -102,3 +102,12 @@ ul.news {
     line-height:1.5em;
 }
 
+p.header {
+    position: fixed;
+    left: 0px;
+    top: 5 px;
+    font-family: 'Garamond';
+    color:#FCF7E5;
+    font-size: 1.5em;
+}
+
