@@ -32,7 +32,7 @@ nav ul {
 nav a {
      position: fixed;
      color:#FCF7E5;
-     right: 0px;
+     float: right;
 }
 
 
