@@ -38,7 +38,7 @@ nav ul li {
     display: inline-block;
     margin-right: 20px;
     float: right;
-    padding-right: 35px;
+    padding-right: 40px;
     padding-top: 10px;
     
 }
@@ -104,6 +104,6 @@ ul.news {
 
 .name {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: -50px;
+    left: -10px;
 }
