@@ -30,8 +30,9 @@ nav ul {
 
 
 nav a {
+     position: fixed;
      color:#FCF7E5;
-     padding-left:30%;
+     right: 0px;
 }
 
 
