@@ -74,6 +74,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color:#212121;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 footer {
@@ -116,7 +117,6 @@ ul.news {
 }
 
 .name a:hover {
-    text-decoration: none;
-    font-style:italic
+    text-decoration: underline;
 }
 
