@@ -68,7 +68,9 @@ h1 {
 h2 {
     font-size: 2em;
     font-family:'Garamond';
-    color:#212121;
+    color:#2F4F4F;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight:bold;
 }
 
 p {
@@ -102,6 +104,7 @@ ul.news {
     font-size: 1.2em;
     color:#212121;
     line-height:1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 .name {
@@ -109,7 +112,7 @@ ul.news {
     top: 7px;
     left: 20px;
     z-index:9999;
-    font-size:1.5em;
+    font-size:2em;
     font-family: 'Brush Script MT', cursive;
     font-weight: normal;
 }
