@@ -59,7 +59,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3.2em;
     font-family: 'Brush Script MT', cursive;
     color:#2F4F4F;
 }
@@ -108,7 +108,7 @@ ul.news {
     left: 20px;
     z-index:9999;
     font-size:1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Brush Script MT', cursive;
 }
 
 .name a {
