@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-    padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -126,6 +125,6 @@ ul.news {
 
 .headtext {
     position: relative;
-    top: -140px;
-    float: left;
+    top: -160px;
+    width: 100%;
 }
