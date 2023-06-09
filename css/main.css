@@ -39,7 +39,7 @@ nav ul li {
     display: inline-block;
     float: right;
     padding-right: 60px;
-    padding-top: 10px;
+    padding-top: 13px;
     
 }
 
@@ -125,6 +125,6 @@ ul.news {
 }
 
 .headtext {
-    position: absolute;
-    top: 85px;
+    position: relative;
+    top: -85px;
 }
