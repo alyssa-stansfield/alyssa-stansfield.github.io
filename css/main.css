@@ -126,5 +126,6 @@ ul.news {
 
 .headtext {
     position: relative;
-    top: -85px;
+    top: -140px;
+    float: left;
 }
