@@ -35,9 +35,9 @@ nav {
   position: fixed;
   overflow: hidden;
   background: rgb(243, 150, 150);
-  -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
-  -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
-  box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
+  -moz-box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
+  box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
   text-align: center;
   width: 250px;
   height: 100%;
@@ -55,7 +55,7 @@ nav img {
 .headname {
   font-size: 30px;
   font-family: "Titillium Web", sans-serif;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
