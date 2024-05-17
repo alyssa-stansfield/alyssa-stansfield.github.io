@@ -39,7 +39,7 @@ nav {
   width: 250px;
   height: 100%;
 
-  margin-left: 0px;
+  margin-left: -50px;
 }
 
 nav img {
@@ -93,12 +93,6 @@ nav a:hover:after {
   margin-left: 50px;
 }
 
-.home img {
-  margin-top: 100px;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
 
 .namestart {
   font-family: "Varela Round", sans-serif;
@@ -243,7 +237,7 @@ nav a:hover:after {
 
 .contact-socialicon {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
