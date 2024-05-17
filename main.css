@@ -34,7 +34,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: rgb(243, 150, 150);
+  background: rgb(243, 91, 91);
   text-align: center;
   width: 250px;
   height: 100%;
@@ -62,7 +62,7 @@ nav ul {
   font-size: 20px;
 
   width: 100%;
-  background-color: rgb(243, 150, 150);
+  background-color: rgb(243, 91, 91);
   margin-top:250px;
 }
 li {
