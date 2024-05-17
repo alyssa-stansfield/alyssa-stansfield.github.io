@@ -35,14 +35,11 @@ nav {
   position: fixed;
   overflow: hidden;
   background: rgb(243, 150, 150);
-  -webkit-box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
-  -moz-box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
-  box-shadow: 9px 9px 35px -8px rgb(243, 150, 150);
   text-align: center;
   width: 250px;
   height: 100%;
 
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 nav img {
@@ -151,7 +148,7 @@ nav a:hover:after {
 
 .team-details h3 {
   font-family: "Titillium Web", sans-serif;
-  font-size: 26px;
+  font-size: 32px;
 }
 
 .team-details p {
