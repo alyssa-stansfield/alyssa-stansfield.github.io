@@ -127,7 +127,7 @@ nav a:hover:after {
 
 .about {
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -145,16 +145,19 @@ nav a:hover:after {
   width: 200px;
   height: 200px;
   float: left;
+  border-radius: 50%;
 }
 
 .team-details h3 {
   font-family: "Titillium Web", sans-serif;
   font-size: 26px;
+  margin-left: 20px;
 }
 
 .team-details p {
   font-size: 20px;
   margin-right: 10px;
+  margin-left: 20px;
   font-family: "Varela Round", sans-serif;
 }
 
