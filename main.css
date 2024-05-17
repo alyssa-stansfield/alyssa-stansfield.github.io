@@ -129,13 +129,13 @@ nav a:hover:after {
 
 .team {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .team-details div {
-  width: 70%;
+  width: 100%;
   height: 120px;
   margin-bottom: 50px;
 }
