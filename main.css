@@ -214,10 +214,9 @@ nav a:hover:after {
 }
 
 .research-details div img {
-  margin-top: 10px;
-  width: 300px;
   height: 300px;
   float: left;
+  margin-right: 15px;
 }
 
 .research-details h3 {
