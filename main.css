@@ -256,6 +256,7 @@ nav a:hover:after {
 .publications-details p {
   font-size: 20px;
   margin-right: 10px;
+  margin-bottom: 10px;
   font-family: "Varela Round", sans-serif;
 }
 
@@ -288,15 +289,6 @@ nav a:hover:after {
 
 
 
-.contact {
-  margin-left: 50px;
-}
-
-.contact-socialicon {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 /* /////////////////////footer///////////////////////////////// */
 
