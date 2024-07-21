@@ -103,11 +103,10 @@ nav a:hover:after {
 
 .nameabout {
   font-family: "Titillium Web", sans-serif;
-
   line-height: 30px;
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .socialicon img {
