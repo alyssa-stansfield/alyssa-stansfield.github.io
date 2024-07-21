@@ -233,6 +233,32 @@ nav a:hover:after {
 
 
 
+.publications{
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.publications-details div {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.publications-details h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 26px;
+}
+
+.publications-details p {
+  font-size: 20px;
+  margin-right: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+
+
+
 .teaching {
   text-align: left;
   margin-bottom: 50px;
