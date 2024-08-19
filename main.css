@@ -130,9 +130,9 @@ nav a:hover:after {
 }
 
 .team-details div img {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: 30px;
-  width: 200px;
+  width: 190px;
   float: left;
 }
 
