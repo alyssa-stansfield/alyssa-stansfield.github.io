@@ -126,7 +126,7 @@ nav a:hover:after {
 .team-details div {
   width: 100%;
   height: 275px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   display:flex;
   align-items:center;
 }
@@ -141,7 +141,7 @@ nav a:hover:after {
 .team-details h3 {
   font-family: "Titillium Web", sans-serif;
   font-size: 32px;
-  margin-left: 75px;
+  margin-left: 150px;
 }
 
 .team-details p {
@@ -320,9 +320,14 @@ footer p {
 
   .team-details div {
     width: 100%;
-    height: 100%;
-    margin-bottom: 60px;
   }
+
+.team-details div img {
+  margin-right: 20px;
+  height:75%;
+  float: left;
+}
+
 
  .team-details h3 {
     font-size: 24px;
@@ -330,6 +335,7 @@ footer p {
 
  .team-details p {
     font-size: 16px;
+    margin-right: 0px;
  }
 
 }
@@ -356,8 +362,6 @@ footer p {
 
   .team-details div {
     width: 100%;
-    height: 100%;
-    margin-bottom: 60px;
   }
 
  .team-details h3 {
@@ -366,5 +370,6 @@ footer p {
 
  .team-details p {
     font-size: 13px;
+    margin-right: 0px;
  }
 }
