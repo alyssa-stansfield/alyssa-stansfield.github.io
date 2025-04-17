@@ -318,6 +318,7 @@ footer p {
 
   .team-details div {
     width: 100%;
+    height: 100%;
     margin-bottom: 60px;
   }
 
@@ -330,7 +331,7 @@ footer p {
  }
 
 .team-details div img {
-  height: 80%;
+  height: 30%;
 }
 
 }
