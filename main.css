@@ -147,7 +147,7 @@ nav a:hover:after {
 .team-details p {
   font-size: 20px;
   margin-right: 10px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   overflow: hidden;
 }
 
@@ -321,12 +321,6 @@ footer p {
   .team-details div {
     width: 100%;
   }
-
-.team-details div img {
-  margin-right: 20px;
-  height:75%;
-  float: left;
-}
 
 
  .team-details h3 {
