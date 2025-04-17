@@ -131,6 +131,8 @@ nav a:hover:after {
 
 
 .team-details div img {
+  display: inline-block;
+  vertical-align: middle;
   margin-right: 30px;
   width: 20%;
   float: left;
@@ -139,7 +141,8 @@ nav a:hover:after {
 .team-details h3 {
   font-family: "Titillium Web", sans-serif;
   font-size: 32px;
-  vertical-align:middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .team-details p {
@@ -147,6 +150,8 @@ nav a:hover:after {
   margin-right: 10px;
   font-family: "Varela Round", sans-serif;
   overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
