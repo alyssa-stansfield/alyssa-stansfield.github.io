@@ -134,13 +134,14 @@ nav a:hover:after {
 
 .team-details div img {
   margin-right: 30px;
-  width: 20%;
+  height:100%;
   float: left;
 }
 
 .team-details h3 {
   font-family: "Titillium Web", sans-serif;
   font-size: 32px;
+  margin-left: 75px;
 }
 
 .team-details p {
