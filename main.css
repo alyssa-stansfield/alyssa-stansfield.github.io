@@ -55,23 +55,23 @@ nav img {
 
 .headname {
   font-size: 30px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
 nav ul {
-  font-family: "Titillium Web", sans-serif;
+  font-family:"Montserrat", sans-serif;
   line-height: 50px;
   font-size: 20px;
   width: 100%;
   color:#FFFFFF;
   background-color: rgb(210, 17, 22);
-  margin-top:250px;
+  top: 50%;
 }
 
 li {
-  color: #000;
+  color: #FFFFFF;
 }
 
 nav a:after {
@@ -100,12 +100,12 @@ nav a:hover:after {
 
 
 .namestart {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
 .nameabout {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 30px;
   margin-top: 20px;
   margin-right: 50px;
@@ -228,14 +228,14 @@ nav a:hover:after {
 }
 
 .research-details h3 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
 }
 
 .research-details p {
   font-size: 20px;
   margin-right: 10px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
 
@@ -255,7 +255,7 @@ nav a:hover:after {
 }
 
 .publications-details h3 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
 }
 
@@ -263,7 +263,7 @@ nav a:hover:after {
   font-size: 20px;
   margin-right: 10px;
   margin-bottom: 15px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -282,14 +282,14 @@ nav a:hover:after {
 }
 
 .teaching-details h3 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
 }
 
 .teaching-details p {
   font-size: 20px;
   margin-right: 10px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -299,7 +299,7 @@ nav a:hover:after {
 /* /////////////////////footer///////////////////////////////// */
 
 footer p {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-top: 200px;
