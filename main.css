@@ -125,7 +125,7 @@ nav a:hover:after {
 }
 
 
-.team {
+.news {
   text-align: left;
   margin-bottom: 100px;
   margin-left: 50px;
@@ -133,7 +133,7 @@ nav a:hover:after {
 }
 
 
-.team ul{
+.news ul{
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   color:"black"
