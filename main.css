@@ -26,8 +26,9 @@ a {
 h1 {
   text-align: left;
   font-size: 40px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Source Serif 4", sans-serif;
   font-weight: normal;
+  font-style: italic;
   margin-bottom: 30px;
 }
 
