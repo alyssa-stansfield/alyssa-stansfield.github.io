@@ -43,7 +43,6 @@ nav {
   width: 250px;
   height: 100%;
   margin-left: 0px;
-  color:"white";
 }
 
 nav img {
@@ -61,6 +60,7 @@ nav img {
 }
 
 nav ul {
+  color:"white";
   position:absolute;
   font-family:"Montserrat", sans-serif;
   line-height: 50px;
@@ -73,10 +73,6 @@ nav ul {
 
 nav li {
   color:#FFFFFF;
-}
-
-li {
-  color: #000000;
 }
 
 nav a:after {
@@ -127,7 +123,7 @@ nav a:hover:after {
 
 .news {
   text-align: left;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -137,6 +133,7 @@ nav a:hover:after {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   color:"black"
+  line-height: 20px;
 }
 
 
