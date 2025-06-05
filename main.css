@@ -42,7 +42,6 @@ nav {
   text-align: center;
   width: 250px;
   height: 100%;
-
   margin-left: 0px;
 }
 
@@ -67,11 +66,15 @@ nav ul {
   width: 100%;
   color:#FFFFFF;
   background-color: rgb(210, 17, 22);
-  top: 50%;
+  margin-top: 50%;
+}
+
+nav li {
+  color:#FFFFFF;
 }
 
 li {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 nav a:after {
