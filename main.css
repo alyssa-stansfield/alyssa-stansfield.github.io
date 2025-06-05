@@ -21,7 +21,7 @@ h3 {
 }
 
 a {
-  color: #000000;
+  color: "white";
   text-decoration: none;
   position: relative;
 }
@@ -60,7 +60,6 @@ nav img {
 }
 
 nav ul {
-  color:"white";
   position:absolute;
   font-family:"Montserrat", sans-serif;
   line-height: 50px;
@@ -71,12 +70,8 @@ nav ul {
   transform: translate(0,-50%);
 }
 
-nav li {
-  color:#FFFFFF;
-}
 
 nav a:after {
-  color:"white";
   border-radius: 1em;
   border-top: 0.1em solid #1799b6;
   content: "";
@@ -87,7 +82,6 @@ nav a:after {
 }
 
 nav a:hover:after {
-  color:"white";
   right: 0;
 }
 
@@ -283,6 +277,10 @@ nav a:hover:after {
   margin-right: 10px;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+}
+
+.publications-details a {
+  color:"black"
 }
 
 
