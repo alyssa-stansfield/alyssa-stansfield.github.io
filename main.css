@@ -76,6 +76,7 @@ nav li {
 }
 
 nav a:after {
+  color:"white";
   border-radius: 1em;
   border-top: 0.1em solid #1799b6;
   content: "";
@@ -86,6 +87,7 @@ nav a:after {
 }
 
 nav a:hover:after {
+  color:"white";
   right: 0;
 }
 
