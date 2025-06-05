@@ -21,7 +21,7 @@ h3 {
 }
 
 a {
-  color: "white";
+  color: #FFFFFF;
   text-decoration: none;
   position: relative;
 }
@@ -280,7 +280,7 @@ nav a:hover:after {
 }
 
 .publications-details a {
-  color:"black"
+  color:#FFFFFF;
 }
 
 
