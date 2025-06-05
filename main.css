@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +21,7 @@ h3 {
 }
 
 a {
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   position: relative;
 }
@@ -62,9 +65,11 @@ nav ul {
   line-height: 50px;
   font-size: 20px;
   width: 100%;
+  color:#FFFFFF;
   background-color: rgb(210, 17, 22);
   margin-top:250px;
 }
+
 li {
   color: #000;
 }
