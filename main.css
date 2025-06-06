@@ -95,6 +95,10 @@ nav a:hover:after {
   margin-left: 50px;
 }
 
+.home a {
+  color:#000000;
+}
+
 
 .namestart {
   font-family: "Montserrat", sans-serif;
@@ -132,6 +136,10 @@ nav a:hover:after {
   line-height: 20px;
 }
 
+.news a {
+  color:#000000;
+}
+
 
 
 .team {
@@ -167,6 +175,10 @@ nav a:hover:after {
   margin-right: 10px;
   font-family: "Montserrat", sans-serif;
   overflow: hidden;
+}
+
+.team-details a {
+  color:#000000;
 }
 
 
@@ -252,6 +264,10 @@ nav a:hover:after {
   overflow: hidden;
 }
 
+.research-details a {
+  color:#000000;
+}
+
 
 
 .publications{
@@ -308,6 +324,10 @@ nav a:hover:after {
   margin-right: 10px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
+}
+
+.teaching-details a {
+  color:#000000;
 }
 
 
