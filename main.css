@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #FFEDD1;
+    background-color: #FAEBD7;
 }
 
 html,
@@ -171,7 +171,7 @@ nav a:hover:after {
   margin-bottom: 40px;
   display:flex;
   align-items:center;
-  background-color:#CFB97E;
+  background-color:#E1D3C0;
 }
 
 
