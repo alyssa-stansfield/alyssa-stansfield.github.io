@@ -131,7 +131,7 @@ nav a:hover:after {
   text-align: left;
   margin-bottom: 50px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 
@@ -140,6 +140,7 @@ nav a:hover:after {
   font-size: 24px;
   color:"black"
   line-height: 20px;
+  margin-left: 50 px;
 }
 
 .news a {
@@ -161,6 +162,7 @@ nav a:hover:after {
   margin-bottom: 40px;
   display:flex;
   align-items:center;
+  background-color:#FFE4C9;
 }
 
 
