@@ -112,7 +112,7 @@ nav a:hover:after {
 }
 
 .home a {
-  color:#000000;
+  color:#053229;
 }
 
 
@@ -153,7 +153,7 @@ nav a:hover:after {
 }
 
 .news a {
-  color:#000000;
+  color:#053229;
 }
 
 
@@ -195,7 +195,7 @@ nav a:hover:after {
 }
 
 .team-details a {
-  color:#000000;
+  color:#053229;
 }
 
 
@@ -282,7 +282,7 @@ nav a:hover:after {
 }
 
 .research-details a {
-  color:#000000;
+  color:#053229;
 }
 
 
@@ -310,10 +310,11 @@ nav a:hover:after {
   margin-right: 10px;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+  color:#053229;
 }
 
 .publications-details a {
-  color:#000000;
+  color:#053229;
 }
 
 
@@ -341,10 +342,11 @@ nav a:hover:after {
   margin-right: 10px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
+  color:#053229;
 }
 
 .teaching-details a {
-  color:#000000;
+  color:#053229;
 }
 
 
