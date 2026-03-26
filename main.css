@@ -191,6 +191,7 @@ nav a:hover:after {
   font-size: 20px;
   margin-right: 10px;
   font-family: "Montserrat", sans-serif;
+  line-height: 1.4;
   overflow: hidden;
 }
 
@@ -405,7 +406,7 @@ footer p {
  }
 
  .team-details p {
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 0px;
  }
 
@@ -440,7 +441,7 @@ footer p {
  }
 
  .team-details p {
-    font-size: 13px;
+    font-size: 14px;
     margin-right: 0px;
  }
 }
