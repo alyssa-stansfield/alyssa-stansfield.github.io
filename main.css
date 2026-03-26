@@ -180,9 +180,11 @@ nav a:hover:after {
 
 
 .team-details > div > img {
-  width: 350px;
+  width: auto;
+  height: 100%;
   margin-right: 20px;
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .team-details > div > div {
@@ -281,9 +283,11 @@ nav a:hover:after {
 }
 
 .research-details > div > img {
-  width: 350px;
+  width: auto;
+  height: 100%;
   margin-right: 20px;
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .research-details > div > div {
@@ -396,9 +400,15 @@ footer p {
     margin-left: 0;
   }
 
-  .research-details > div > img,
+  .research-details > div > img {
+    width: auto;
+    height: 100%;
+    margin-right: 18px;
+  }
+
   .team-details > div > img {
-    width: 300px;
+    width: auto;
+    height: 100%;
     margin-right: 18px;
   }
 
@@ -433,9 +443,15 @@ footer p {
     margin: 0;
   }
 
-  .research-details > div > img,
+  .research-details > div > img {
+    width: auto;
+    height: 100%;
+    margin-right: 15px;
+  }
+
   .team-details > div > img {
-    width: 220px;
+    width: auto;
+    height: 100%;
     margin-right: 15px;
   }
 
