@@ -165,26 +165,33 @@ nav a:hover:after {
   margin-right: 25px;
 }
 
-.team-details div {
+.team-details > div {
   width: 100%;
-  height: 300px;
+  min-height: 300px;
+  height: auto;
   margin-bottom: 40px;
-  display:flex;
-  align-items:center;
-  background-color:#E1D3C0;
+  display: flex;
+  align-items: center;
+  background-color: #E1D3C0;
+  border: thin solid;
+  box-sizing: border-box;
 }
 
 
-.team-details div img {
-  margin-right: 30px;
-  height:100%;
-  float: left;
+.team-details > div > img {
+  width: 350px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
-.team-details h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  margin-left: 150px;
+.team-details > div > div {
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .team-details p {
@@ -396,14 +403,10 @@ footer p {
    font-size:18px;
  }
 
-  .team-details div {
+  .team-details > div {
     width: 100%;
+    height: 100%;
   }
-
-
- .team-details h3 {
-    font-size: 24px;
- }
 
  .team-details p {
     font-size: 18px;
@@ -432,13 +435,10 @@ footer p {
    font-size:14px;
  }
 
-  .team-details div {
+  .team-details > div {
     width: 100%;
+    height: 100%;
   }
-
- .team-details h3 {
-    font-size: 16px;
- }
 
  .team-details p {
     font-size: 14px;
