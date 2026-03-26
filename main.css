@@ -396,6 +396,12 @@ footer p {
     margin-left: 0;
   }
 
+  .research-details > div > img,
+  .team-details > div > img {
+    width: 300px;
+    margin-right: 18px;
+  }
+
   .research-details > div {
     width: 100%;
     height: 100%;
@@ -425,6 +431,12 @@ footer p {
 
   .main {
     margin: 0;
+  }
+
+  .research-details > div > img,
+  .team-details > div > img {
+    width: 220px;
+    margin-right: 15px;
   }
 
 
