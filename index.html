@@ -1,170 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="main.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Titillium+Web|Varela+Round&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Stansfield Research Group studies extreme weather, precipitation, and climate at the University of Utah.">
     <title>Stansfield Research Group</title>
-    <nav>
-      <ul style="color:#FFEDD1;">
-        <li><a href="#home"> HOME</a></li>
-        <li><a href="#team"> OUR TEAM </a></li>
-        <li><a href="#research">RESEARCH</a></li>
-        <li><a href="#publications">PUBLICATIONS</a></li>
-	<li><a href="#teaching">TEACHING</a></li>
-      </ul>
-    </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Source+Serif+4:wght@600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div class="main">
-	<header>
-        <img src="../assets/steamboat.png" width=100%>
-    	</header>
-      <div class="home" id="home">
-	<h1 style="text-align:center;font-size:60px;margin-top:20px;">Stansfield Research Group</h1>
-	<p class="namestart" style="margin-top:10px;">
-	  <a href="https://atmos.utah.edu/"><em>Department of Atmospheric Sciences</a><br />
-	  University of Utah</em>
-        </p>
-      </div>
+    <aside class="rail">
+      <div class="brand">Stansfield<br>Research Group</div>
+      <nav aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#team">Team</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+      </nav>
+      <div class="affiliation">University of Utah</div>
+    </aside>
 
-        <div class="news" id="news">
-        <h1 style="color:#FE9179;">Recent News</h1>
-                <ul>
-                        <li style="margin-bottom:12px;">Alyssa gave an invited talk for NSF NCAR RAL's seminar series entitled "Investigating Precipitation Processes over CONUS with Objective Storm Tracking." <a href="https://www.youtube.com/watch?v=0l9rSPOaa2o">Click here to watch a recording of her seminar!</a></li>
-                        <li style="margin-bottom:12px;"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026GL122815">Alyssa has a new co-authored publication in <em>Geophysical Research Letters</em>: "Contribution of Tropical Cyclones to Hourly Precipitation Extremes in the Contiguous United States"</a></li>
-                        <li style="margin-bottom:12px;">Chris has graduated from our department with his Bachelor's degree! He will be pursuing a Master's in our department with Dr. Derek Mallia. Congrats Chris!</li>
-                        <li style="margin-bottom:12px;"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118254">Alyssa has a new first authored publication in <em>Geophysical Research Letters</em> :"Quantifying Tropical Cyclone Vertical Mass Flux and Its Relationship to Precipitation Structures Under Varying Sea Surface Temperatures"</a></li>
-                </ul>
+    <main class="page">
+      <header class="hero" id="home">
+        <div class="hero-copy">
+          <h1>Stansfield Research Group</h1>
+          <p><a href="https://atmos.utah.edu/">Department of Atmospheric Sciences</a> · University of Utah</p>
         </div>
+      </header>
 
-
-    <div class="team" id="team">
-        <h1 style="color:#FE9179;">Our Team</h1>
-	<div class="team-details">
-          <div style="border-style: solid; border-width:thin;">
-            <img src="../assets/stansfield_headshot_2024.jpg"/>
-            <div>
-            <p>
-	<b>Alyssa M. Stansfield, PhD</b> is a tenure-track assistant professor in the Department of Atmospheric Sciences and a <a href="https://wilkescenter.utah.edu/">Wilkes Center for Climate Science & Policy Fellow</a> at the University of Utah. Previously, she was a <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2204138&HistoricalAwards=false">NSF AGS Postdoctoral Research Fellow</a> at Colorado State University. She graduated with her PhD in Atmospheric Science from Stony Brook University in May 2022 and with a BS in Meteorology from Rutgers University in May 2017. Her research group focuses on combining advanced atmospheric modeling and observations to better understand how extreme weather and its impacts are influenced by the large-scale climate. In her free time, she enjoys skiing at the awesome resorts in Utah, hiking, doing yoga, and reading.
-	    <br>
-	    <br>
-	    <a href="../assets/Stansfield_CV_April2026.pdf">CV</a>&emsp;<a href="mailto:alyssa.stansfield@utah.edu">Email Me</a>
-	    </p>
-            </div>
+      <section class="section compact" id="news">
+        <div class="container">
+          <div class="heading-row">
+            <h2>Recent News</h2>
           </div>
-
-          <div style="border-style: solid; border-width:thin;">
-            <img src="../assets/kian.jpg"/>
-            <div>
-            <p>
-<b>Qien (Kian) Huang</b> is a PhD student in the Department of Atmospheric Sciences at the University of Utah. His research interests include high-impact weather and climate events, storm tracking, and weather predictions.  Beyond academia, he has sought to bridge the gap between scientific research and public understanding. He also enjoys traveling, sports, singing, and cooking.
-            </p>
-            </div>
+          <div class="news-list">
+            <article class="news-item">
+              <span class="news-type">Seminar</span>
+              <h3>Invited seminar at NSF NCAR RAL</h3>
+              <p>Alyssa gave an invited talk entitled “Investigating Precipitation Processes over CONUS with Objective Storm Tracking.”</p>
+              <a href="https://www.youtube.com/watch?v=0l9rSPOaa2o">Watch the seminar →</a>
+            </article>
+            <article class="news-item">
+              <span class="news-type">Publication</span>
+              <h3>New publication in <em>Geophysical Research Letters</em></h3>
+              <p>“Contribution of Tropical Cyclones to Hourly Precipitation Extremes in the Contiguous United States.”</p>
+              <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026GL122815">Read the paper →</a>
+            </article>
+            <article class="news-item">
+              <span class="news-type">Publication</span>
+              <h3>New first-authored publication</h3>
+              <p>“Quantifying Tropical Cyclone Vertical Mass Flux and Its Relationship to Precipitation Structures Under Varying Sea Surface Temperatures.”</p>
+              <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118254">Read the paper →</a>
+            </article>
           </div>
-
-
-          <div style="border-style: solid; border-width:thin;">
-            <img src="../assets/zach.jpg"/>
-            <div>
-            <p>
-<b>Zachary Atkins-Weltman</b> is a first year Master's student in atmospheric science at the University of Utah. His research is primarily focused on understanding precipitation processes in complex terrain, and he is very excited to be involved in the SNOWSCAPE project. In his free time, he loves to ski, hike, travel and spend time with his pets Percy the Pug and Everest the Cat.
-            </p>
-            </div>
-          </div>
-
-
-
         </div>
-    </div>
+      </section>
 
-
-      <div class="research" id="research">
-        <h1 style="color:#FE9179;">Research</h1>
-        <div class="research-details">
-
-          <div style="border-style: solid; border-width:thin; display:flex; align-items:center; background-color:#E1D3C0; margin-bottom:40px;">
-            <img src="../assets/WRF_TC_forpresentations.png" style="margin-top:5px;"/>
-            <div>
-              <h3>Extreme Weather and Climate</h3>
-              <p>Extreme weather events are impacted by both anthropogenic climate change and natural climate variability. In turn, the occurrence of extreme weather helps determine Earth's climate through upscale effects on the global energy and hydrologic cycles. Motivated by both the positive and negative impacts of extreme weather on society and ecosystems, my research group studies the statistics of extreme weather, explores how these events fit into the global climate system, and projects how extreme weather will change in the future. My recent work on this topic has focused on how tropical cyclones and their precipitation are influenced by climate change, but I'm interested in all types of extreme weather.
-              </p>
-            </div>
+      <section class="section" id="team">
+        <div class="container">
+          <div class="heading-row">
+            <h2>Our Team</h2>
           </div>
-
-
-          <div style="border-style: solid; border-width:thin; display:flex; align-items:center; background-color:#E1D3C0; margin-bottom:40px;">
-            <img src="../assets/CMF_TCs.png" style="margin-top:5px;"/>
-            <div>
-              <h3>Precipitation Processes</h3>
-              <p>My research group approaches studying precipitation through the different storm sytems that produce it, such as tropical cyclones, mesoscale convective systems, atmospheric rivers, and extratropical storms. Through the integration of atmospheric models, reanalysis, and observations,we will build a process-based understanding of storms and their precipitation. This increased understanding can help answer questions like why do some storms produce extreme precipitation while others don't and how are storms and their resulting precipitation impacted by natural climate variability and anthropogenic climate change. 
-              </p>
-            </div>
+          <div class="team-grid">
+            <article class="person">
+              <img src="assets/stansfield_headshot_2024.jpg" alt="Portrait of Alyssa Stansfield">
+              <div class="person-body">
+                <h3>Alyssa M. Stansfield, PhD</h3>
+                <div class="role">Principal Investigator</div>
+                <p>Alyssa is a tenure-track assistant professor in the Department of Atmospheric Sciences and a <a href="https://wilkescenter.utah.edu/">Wilkes Center for Climate Science &amp; Policy Fellow</a> at the University of Utah. Previously, she was an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2204138&amp;HistoricalAwards=false">NSF AGS Postdoctoral Research Fellow</a> at Colorado State University. She graduated with her PhD in Atmospheric Science from Stony Brook University in May 2022 and with a BS in Meteorology from Rutgers University in May 2017. Her research group focuses on combining advanced atmospheric modeling and observations to better understand how extreme weather and its impacts are influenced by the large-scale climate. In her free time, she enjoys skiing at the awesome resorts in Utah, hiking, doing yoga, and reading.</p>
+                <div class="person-links">
+                  <a href="assets/Stansfield_CV_April2026.pdf">View CV →</a>
+                  <a href="mailto:alyssa.stansfield@utah.edu">Email Alyssa →</a>
+                </div>
+              </div>
+            </article>
+            <article class="person">
+              <img src="assets/kian.jpg" alt="Portrait of Qien Huang">
+              <div class="person-body">
+                <h3>Qien “Kian” Huang</h3>
+                <div class="role">PhD Student</div>
+                <p>Qien is a PhD student in the Department of Atmospheric Sciences at the University of Utah. His research interests include high-impact weather and climate events, storm tracking, and weather predictions. Beyond academia, he has sought to bridge the gap between scientific research and public understanding. He also enjoys traveling, sports, singing, and cooking.</p>
+              </div>
+            </article>
+            <article class="person">
+              <img src="assets/zach.jpg" alt="Zachary Atkins-Weltman with his pets">
+              <div class="person-body">
+                <h3>Zachary Atkins-Weltman</h3>
+                <div class="role">Master’s Student</div>
+                <p>Zachary is a first-year master’s student in atmospheric science at the University of Utah. His research is primarily focused on understanding precipitation processes in complex terrain, and he is very excited to be involved in the SNOWSCAPE project. In his free time, he loves to ski, hike, travel, and spend time with his pets Percy the Pug and Everest the Cat.</p>
+              </div>
+            </article>
           </div>
-
-
-          <div style="border-style: solid; border-width:thin; display:flex; align-items:center; background-color:#E1D3C0; margin-bottom:40px;">
-            <img src="../assets/RCE_TCs.gif" />
-            <div>
-              <h3>Modeling Across Scales</h3>
-              <p>Research at the climate-weather interface requires models that can connect the large-scale climate system with mesoscale systems. My research group uses earth system models ranging from global climate models run with ~100 km grid spacing to simulations of individual weather events with grid spacing of ~1 km. These models across scales, in combination with idealized modeling, faciliate a more complete understanding of the relationship between climate and weather. In addition to atmospheric models, I'm interested in exploring hydrologic modeling as well with the goals of studying flooding from extreme precipitation events and improving the coupling between atmospheric and hydrologic models. 
-              </p>
-            </div>
-          </div>
-
-
         </div>
-      </div>
+      </section>
 
+      <section class="section" id="research">
+        <div class="container">
+          <div class="heading-row">
+            <h2>Research</h2>
+          </div>
+          <div class="research-list">
+            <article class="research-card">
+              <img src="assets/WRF_TC_forpresentations.png" alt="Modeled tropical cyclone precipitation structure">
+              <div class="research-copy">
+                <h3>Extreme Weather and Climate</h3>
+                <p>Extreme weather events are impacted by both anthropogenic climate change and natural climate variability. In turn, the occurrence of extreme weather helps determine Earth’s climate through upscale effects on the global energy and hydrologic cycles. Motivated by both the positive and negative impacts of extreme weather on society and ecosystems, my research group studies the statistics of extreme weather, explores how these events fit into the global climate system, and projects how extreme weather will change in the future. My recent work on this topic has focused on how tropical cyclones and their precipitation are influenced by climate change, but I’m interested in all types of extreme weather.</p>
+              </div>
+            </article>
+            <article class="research-card">
+              <img src="assets/CMF_TCs.png" alt="Scatterplot showing tropical cyclone precipitation characteristics">
+              <div class="research-copy">
+                <h3>Precipitation Processes</h3>
+                <p>My research group approaches studying precipitation through the different storm systems that produce it, such as tropical cyclones, mesoscale convective systems, atmospheric rivers, and extratropical storms. Through the integration of atmospheric models, reanalysis, and observations, we will build a process-based understanding of storms and their precipitation. This increased understanding can help answer questions like why some storms produce extreme precipitation while others do not and how storms and their resulting precipitation are impacted by natural climate variability and anthropogenic climate change.</p>
+              </div>
+            </article>
+            <article class="research-card">
+              <img src="assets/RCE_TCs.gif" alt="Global map showing modeled tropical cyclones">
+              <div class="research-copy">
+                <h3>Modeling Across Scales</h3>
+                <p>Research at the climate-weather interface requires models that can connect the large-scale climate system with mesoscale systems. My research group uses earth system models ranging from global climate models run with approximately 100 km grid spacing to simulations of individual weather events with grid spacing of approximately 1 km. These models across scales, in combination with idealized modeling, facilitate a more complete understanding of the relationship between climate and weather. In addition to atmospheric models, I’m interested in exploring hydrologic modeling with the goals of studying flooding from extreme precipitation events and improving the coupling between atmospheric and hydrologic models.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-      <div class="publications" id="publications">
-        <h1 style="color:#FE9179;">Recent Publications</h1>
-	<div class="publications-details">
-	<p style="margin-top:-27px;font-size:18px">*Underlined names are students I've advised or co-advised.</p>
+      <section class="section" id="publications">
+        <div class="container">
+          <div class="heading-row publications-heading">
+            <h2>Recent Publications</h2>
+            <a href="https://scholar.google.com/citations?user=4k7P7qQAAAAJ&amp;hl=en">View all on Google Scholar →</a>
+          </div>
+          <div class="publications-list">
+            <p class="publication-note">Underlined names are students I’ve advised or co-advised.</p>
+            <article class="publication">
+              <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026GL122815">
+                <strong>Contribution of Tropical Cyclones to Hourly Precipitation Extremes in the Contiguous United States</strong>
+                <span>Kalashnikov, D. A., Abatzoglou, J. T., and Stansfield, A. M. · <em>Geophysical Research Letters</em> · 2026</span>
+              </a>
+            </article>
+            <article class="publication">
+              <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118254">
+                <strong>Quantifying Tropical Cyclone Vertical Mass Flux and Its Relationship to Precipitation Structures Under Varying Sea Surface Temperatures</strong>
+                <span>Stansfield, A. M. and Rasmussen, K. L. · <em>Geophysical Research Letters</em> · 2026</span>
+              </a>
+            </article>
+            <article class="publication">
+              <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JD044800">
+                <strong>Precipitation Efficiency by Storm Type in Km-scale Climate Simulations and Satellite Observations</strong>
+                <span>Kukulies, J., Prein, A. F., Done, J., Stansfield, A. M., and Rios-Berrios, R. · <em>JGR: Atmospheres</em> · 2026</span>
+              </a>
+            </article>
+            <article class="publication">
+              <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0200.1/BAMS-D-24-0200.1.xml">
+                <strong>On the Definition of Tropical Cyclone Seeds from a Climate Perspective</strong>
+                <span>Wang, Z., Rios-Berrios, R., Stern, D. P., … Stansfield, A. M., Ayar, P. V., and Wisinski, E. · <em>Bulletin of the American Meteorological Society</em> · 2025</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026GL122815">Kalashnikov, D. A., Abatzoglou, J. T., and <b>Stansfield, A. M.</b>. (2026). Contribution of Tropical Cyclones to Hourly Precipitation Extremes in the Contiguous United States, <em>Geophysical Research Letters</em>, 53, e2026GL122815. https://doi.org/10.1029/2026GL122815.</a></p>
+      <section class="section" id="teaching">
+        <div class="container bottom-grid">
+          <div class="panel">
+            <h2>Teaching</h2>
+            <div class="course"><strong>ATMOS 5400</strong> · The Climate System · Fall 2026</div>
+            <div class="course"><strong>ATMOS 5000</strong> · Introduction to Atmospheric Science · Fall 2025</div>
+            <div class="course"><strong>ATMOS 1120</strong> · Introduction to Earth System Science · Fall 2025 (co-teaching)</div>
+            <div class="course"><strong>ATMOS 6030</strong> · Climate Dynamics · Spring 2025</div>
+            <div class="course"><strong>ENS 101</strong> · Prospects for Planet Earth · Spring 2022 (Stony Brook University)</div>
+          </div>
+          <div class="panel contact-panel">
+            <h2>Work with us</h2>
+            <p>Interested in working as an undergraduate, graduate, or postdoctoral researcher in our group?</p>
+            <a class="button" href="mailto:alyssa.stansfield@utah.edu">Email Alyssa</a>
+          </div>
+        </div>
+      </section>
 
-	<p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL118254">Stansfield, A. M. and K. L. Rasmussen. (2026). Quantifying Tropical Cyclone Vertical Mass Flux and Its Relationship to Precipitation Structures Under Varying Sea Surface Temperatures. <em>Geophysical Research Letters</em>, 53, e2025GL118254. https://doi.org/10.1029/2025GL118254.</a></p>
+      <footer>
+        <div class="container">Stansfield Research Group · University of Utah</div>
+      </footer>
+    </main>
 
-        <p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JD044800">Kukulies, J., A. F. Prein, J. Done, <b>A. M. Stansfield</b>, and R. Rios-Berrios. (2026). Precipitation Efficiency by Storm Type in Km-scale Climate Simulations and Satellite Observations. <em>JGR: Atmospheres</em>, 131, e2025JD044800. https://doi.org/10.1029/2025JD044800</a></p>
+    <script>
+      const navLinks = [...document.querySelectorAll(".rail nav a")];
+      const sections = navLinks
+        .map((link) => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
 
-	<p><a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0200.1/BAMS-D-24-0200.1.xml">Wang, Z., R. Rios-Berrios, D. P. Stern, ... <b>A. M. Stansfield</b>, P. V. Ayar, and E. Wisinski (2025). On the Definition of Tropical Cyclone Seeds from a Climate Perspective. <em>Bulletin of the American Meteorological Society</em>, BAMS-D-24-0200.1. https://doi.org/10.1175/BAMS-D-24-0200.1</a></p>
+      function setActiveSection(sectionId) {
+        navLinks.forEach((link) => {
+          const isActive = link.getAttribute("href") === `#${sectionId}`;
+          link.classList.toggle("active", isActive);
 
-	<p><a href="https://scholar.google.com/citations?user=4k7P7qQAAAAJ&hl=en"><em>For a full publication list, please see Alyssa's google scholar page.</em></a></p>
+          if (isActive) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      }
 
-         </div>
-      </div>
+      function updateActiveSection() {
+        const readingLine = window.scrollY + window.innerHeight * 0.35;
+        let activeSection = sections[0];
 
+        sections.forEach((section) => {
+          if (section.offsetTop <= readingLine) {
+            activeSection = section;
+          }
+        });
 
+        if (activeSection) {
+          setActiveSection(activeSection.id);
+        }
+      }
 
-      <div class="teaching" id="teaching">
-        <h1 style="color:#FE9179;">Teaching</h1>
-        <div class="teaching-details">
-	<p>ATMOS 5400: The Climate System, Fall 2026</p>
-	<p>ATMOS 5000: Introduction to Atmospheric Science, Fall 2025</p>
-	<p>ATMOS 1120: Introduction to Earth System Science, Fall 2025 (co-teaching)</p>
-	<p>ATMOS 6030: Climate Dynamics, Spring 2025</p>
-	<p>ENS 101: Prospects for Planet Earth, Spring 2022 (at Stony Brook University)</p>
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          setActiveSection(link.getAttribute("href").slice(1));
+        });
+      });
 
-	</div>
-      </div>
-
-
-
-    </div>
-    <footer>
-      <p>
-        Website Design by
-        <a href="https://github.com/MasterBrian99" target="_blank">
-          MasterBrian..
-        </a>
-      </p>
-    </footer>
+      window.addEventListener("scroll", updateActiveSection, { passive: true });
+      window.addEventListener("resize", updateActiveSection);
+      updateActiveSection();
+    </script>
   </body>
 </html>
